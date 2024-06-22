@@ -1,0 +1,16 @@
+/* 00_site.css - SiteWide Stylesheet
+   Author: Sho Serrano (shojapan627@gmail.com)
+   Date: June 22nd 2024 */
+
+/* Body Format */
+body {
+    background-color: #ffffff;
+  }
+  
+  /* Heading Format */
+h1 {font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 200%;
+    color: #00aeff; 
+    }
