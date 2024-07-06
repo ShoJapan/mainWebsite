@@ -1,0 +1,18 @@
+/* 0_entry.css - SiteSpecific Stylesheet
+   Author: Sho Serrano (shojapan627@gmail.com)
+   Date: June 22nd 2024 */
+
+
+body, html {
+   padding: 0;
+}
+
+
+.TBA {
+   width: 100%;
+   height: 100%;
+   font-size: 500%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}

@@ -1,9 +1,10 @@
-<!-- index.html - HTML for Main Page
+<!-- index.html - HTML for Sho Page
      Author: Sho Serrano (shojapan627@gmail.com)
      Date: June 22nd 2024 -->
 
 
 <!DOCTYPE html>
+
 
 <html>
 
@@ -12,26 +13,42 @@
         <!-- UTF Character Set -->
   	    <meta charset = "UTF-8" />
         <!-- Set Viewport -->
-        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0" />
+        <meta name = "viewport"    content = "width = device-width, initial-scale = 1.0"/>
 
         <!-- Link CSS (SiteWide) -->
-        <link rel="stylesheet" type="text/css" href="./CSS/site.css">
+        <link rel = "stylesheet"    type = "text/css"   href = "./css/00_site.css">
         <!-- Link CSS (SiteSpecific) -->
-        <link rel="stylesheet" type="text/css" href="./CSS/0_main.css">
+        <link rel = "stylesheet"    type = "text/css"   href = "./css/0_sho.css">
 
         <!-- Load jQuery -->
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js"> </script>
+        <script src = "https://code.jquery.com/jquery-3.7.1.min.js"> </script>
         <!-- Link Java File -->
-        <script type="text/javascript" src="./JAVA/0_main.js" DEFER></script>
+        <script type = "text/javascript"   src="./java/0_sho.js" DEFER></script>
 
         <!-- Title for Tabs/Bookmarks -->
-        <title>Sho</title>
+        <title> Sho </title>
 
     </head>
 
+
     <body>
 
+        <!-- Name -->
+        <div class = "name">
+            <h1> Sho Leo Serrano </h1>
+        </div>
 
+        <!-- Decoration for Webpage -->
+        <div class="decoration">
+            <!-- Left Pattern Decoration -->
+            <div class = "pattern pattern-0"></div>
+            <!-- Click Tapestry to Go to Introduction -->
+            <a href = "0_home/index.html" class="tapestry-introduction">
+                <div class="tapestry"></div>
+            </a>
+            <!-- Right Pattern Decoration -->
+            <div class = "pattern pattern-1"></div>
+        </div>
 
     </body>
 

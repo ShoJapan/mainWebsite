@@ -1,0 +1,84 @@
+/* 0_entry.css - SiteSpecific Stylesheet
+   Author: Sho Serrano (shojapan627@gmail.com)
+   Date: June 22nd 2024 */
+
+   
+/* Body Format */
+body {
+   background-color: #702020;
+   margin: 0;
+ }
+ 
+
+/* Heading Format */
+h1 {
+   letter-spacing: 0.01%;
+   word-spacing: 0.01%;
+   font-size: 300%;
+   color: #dad8a1; 
+}
+
+
+/* Name Divider Format */
+.name {
+   /* Padding Used to Make Border the Same in Different Webpage Sizes. */
+   padding: 0.25vh;
+   border: solid 10px #fffdcc;
+   background-color: #fffcab;
+   /* Flex Used to Center Border */
+   display: flex;
+   justify-content: center;
+   align-items: baseline;
+ }
+
+
+/* Decoration Format */
+.decoration {
+   /* Flex Used to Put the Decorations to the Side */
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+
+
+/* Decoration Format */
+.pattern {
+   min-width: 10vh; 
+   min-height: 100vh;
+   background-color: #702020;
+   background-image: url("../img/decoration.png");
+   background-size: contain;
+   background-repeat: repeat-y;
+}
+
+
+/* Tapestry Image/Padding */
+.tapestry {
+   min-width: 10vh; 
+   min-height: 10vh;
+   padding: 30%;
+   background-color: none;
+   background-size: cover;
+   background-image: url("../img/tapestry.png");
+   /* Transitions 
+   transition: property duration timingFunction delay */
+   transition: 0.3s;
+}
+
+
+/* Tapestry Location/Size */
+.tapestry-introduction {
+   /* Flex Used to Center Image */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 70%; 
+   height: 80%; 
+   margin: 0 10px; 
+}
+
+
+/* tapestry.png Changes to kimono.png When Hovered */
+.tapestry:hover {
+   background-image: url("../img/kimono.png");
+}
