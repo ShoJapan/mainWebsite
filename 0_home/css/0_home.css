@@ -1,0 +1,45 @@
+/* 00_site.css - SiteWide Stylesheet
+   Author: Sho Serrano (shojapan627@gmail.com)
+   Date: June 24th 2024 */
+
+
+/* Body Format */
+   body {
+   margin: 2.5%;
+}
+
+
+/* Link Format in 00_site.css */
+
+
+/* Message Box Format */
+.message {
+   margin-left: 5%;
+   width: 50vw;
+   background-image: url("../img/messageBox.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   padding: 2%;
+   box-sizing: border-box; 
+}
+
+
+/* Golem Format */
+.golem {
+   margin-left: 45%;
+   width: 20vw;
+   height: 50vh;
+   background-image: url("../img/golem.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   /* Flex Used to Center Image */
+   display: flex;
+   justify-content: center;
+}
+
+/* Heading Format */
+h1 {
+   letter-spacing: 0.1vw;
+   word-spacing: 0.1vw;
+   font-size: 4vw; 
+}
