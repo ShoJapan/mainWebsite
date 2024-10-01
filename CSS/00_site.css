@@ -32,7 +32,7 @@ body {
 }
 
 
-/* Link Font Format */
+/* Link Format */
 .link {
   width: 20vw;
   height: auto;
@@ -52,9 +52,9 @@ body {
   word-spacing: 0.25vw;
   width: 90%;
   height: auto;
+  /* Includes Padding width/height */
   padding: 2.55%;
   padding-right: 10%;
-  /* Includes Padding width/height */
   box-sizing: border-box; 
 }
 

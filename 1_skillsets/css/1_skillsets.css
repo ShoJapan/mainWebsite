@@ -47,7 +47,7 @@ h3 {
 }
 
 
-/* Section After Elements */
+/* Section After Elements (border to seperate sections) */
 .section::after {
    content: "";
    width: 0.0625vw;
@@ -59,7 +59,7 @@ h3 {
    transform: translateY(-50%);
 }
 
-
+/* Moving Border Around */
 .skills::after {
    width: 0;
    bottom: 7vh;
