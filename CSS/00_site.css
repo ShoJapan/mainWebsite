@@ -17,16 +17,17 @@ body {
 
 /* Link Border Format */
 .links {
-  margin-left: 7vw;
-  margin-bottom: 10vh;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  padding: 1%;
   width: 80vw;
-  height: 10vh; 
+  height: auto; 
 /* border: style size color */
   border: solid .01em #000000;
   background-color: #adeff9;
   /* Flex Used to Center Link Button Border*/
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
@@ -34,11 +35,14 @@ body {
 /* Link Font Format */
 .link {
   width: 20vw;
-  height: 5vh;
+  height: auto;
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.8vw;
   border: solid .01em #000000;
   background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 
@@ -52,4 +56,13 @@ body {
   padding-right: 10%;
   /* Includes Padding width/height */
   box-sizing: border-box; 
+}
+
+.TBA {
+  width: 100%;
+  height: 100%;
+  font-size: 500%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
