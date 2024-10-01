@@ -53,3 +53,9 @@ body {
   /* Includes Padding width/height */
   box-sizing: border-box; 
 }
+
+.TBA {
+  font-size: 2vw;
+  display: flex;
+  justify-content: center;
+}
