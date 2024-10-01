@@ -1,0 +1,55 @@
+/* 00_site.css - SiteWide Stylesheet
+   Author: Sho Serrano (shojapan627@gmail.com)
+   Date: June 22nd 2024 */
+
+
+/* Heading Format */  
+html {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Body Format */
+body {
+  margin: 2.5%;
+}
+
+
+/* Link Border Format */
+.links {
+  margin-left: 7vw;
+  margin-bottom: 10vh;
+  width: 80vw;
+  height: 10vh; 
+/* border: style size color */
+  border: solid .01em #000000;
+  background-color: #adeff9;
+  /* Flex Used to Center Link Button Border*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+/* Link Font Format */
+.link {
+  width: 20vw;
+  height: 5vh;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.8vw;
+  border: solid .01em #000000;
+  background-color: #ffffff;
+}
+
+
+/* Text Format */
+.text {
+  font-size: 1.3vw; 
+  word-spacing: 0.25vw;
+  width: 90%;
+  height: auto;
+  padding: 2.55%;
+  padding-right: 10%;
+  /* Includes Padding width/height */
+  box-sizing: border-box; 
+}
