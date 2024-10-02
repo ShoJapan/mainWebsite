@@ -39,6 +39,7 @@ body {
   font-size: 1.8vw;
   border: solid .01em #000000;
   background-color: #ffffff;
+  cursor: pointer;
 }
 
 
